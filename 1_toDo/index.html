@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp_NDR</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+        <header>
+            <img src="./assets/images/bg-desktop-light.jpg" alt="header image">
+        </header>
+        <div class="container">
+
+            <div class="title">
+                <h1>TODO</h1>
+                <input type="checkbox" checked id="checkbox" />
+                <label for="checkbox">&#9788;</label>
+                <!-- <span class="btn-white light">&#9788;</span>  
+                <span class="btn-white night">&#9790;</span> -->
+            </div>
+            
+            
+            
+            <div class="add">
+                <input type="text" id="myInput" placeholder="Creat a new task...">
+                <button id="add">&#10010;</button>
+            </div>
+            
+            <div class="row">
+                <ul id="myList" class="list-task">
+ 
+
+                </ul>
+
+                <div class="bottom-menu">
+                    <div class="task-count">
+                      <span id="task-count" class="fs-med bold">0</span>&nbsp;
+                      <span>Item left</span>
+                    </div>
+        
+                    <p id="clearComplete" class="btn fs-med">Clear Completed</p>
+                </div>
+
+            </div>
+
+             <div class="row footer">
+                <p id="showAll" class="btn filter-button">All</p>
+                <p id="showActive" class="btn filter-button">Active</p>
+                <p id="showComplete" class="btn filter-button">Completed</p>
+            </div> 
+        </div>
+
+
+    <script src="./assets/main.js">
+        // 
+    </script>
+</body>
+</html>
