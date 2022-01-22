@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-        <header>
-            <img src="./assets/images/bg-desktop-light.jpg" alt="header image">
-        </header>
-        <div class="container">
+        <div class="header"></div>
+        <div class="container ">
 
             <div class="title">
                 <h1>TODO</h1>
-                <input type="checkbox" checked id="checkbox" />
-                <label for="checkbox">&#9788;</label>
+                <span class="btn-white sun-moon" onclick="toggleMode()">&#9788;</span>
+                <!-- <input type="checkbox" checked id="checkbox" />
+                <label for="checkbox">&#9788;</label> -->
                 <!-- <span class="btn-white light">&#9788;</span>  
                 <span class="btn-white night">&#9790;</span> -->
             </div>
@@ -28,7 +27,7 @@
                 <button id="add">&#10010;</button>
             </div>
             
-            <div class="row">
+            <div class="row d-child">
                 <ul id="myList" class="list-task">
  
 
@@ -45,7 +44,7 @@
 
             </div>
 
-             <div class="row footer">
+             <div class="row footer f-child">
                 <p id="showAll" class="btn filter-button">All</p>
                 <p id="showActive" class="btn filter-button">Active</p>
                 <p id="showComplete" class="btn filter-button">Completed</p>
